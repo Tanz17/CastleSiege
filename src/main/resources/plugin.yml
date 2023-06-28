@@ -1,0 +1,3 @@
+name: CastleSiege
+version: '${version}'
+main: ru.castlesiege.CastleSiege

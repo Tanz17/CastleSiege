@@ -1,0 +1,22 @@
+game:
+  world: 'world'
+  border-size: 200
+  schematic-name: 'castle.schematic'
+
+boss:
+  name: 'king'
+  entity: ZOMBIE
+  health: 200
+attacker:
+  name: ''
+  max-members: 10
+  location: 'world, 0, 70, 10'
+  commands:
+    - 'kit <member> start'
+defender:
+  name: ''
+  max-members: 10
+  location: 'world, 0, 70, 10'
+  commands:
+    - 'kit <member> start'
+
